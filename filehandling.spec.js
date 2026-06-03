@@ -25,7 +25,7 @@ test('File handling', async({page}) => {
     // await page.setInputFiles('input[type="file"]', []) -> to clear file input
     */
 
-
+// Sample line
 
 
 await page.waitForTimeout(2000);    
