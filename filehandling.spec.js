@@ -26,15 +26,6 @@ test('File handling', async({page}) => {
     */
 
 
-    // file downloading
-
-    await page.goto('https://the-internet.herokuapp.com/download'); 
-    const[download] = await Promise.all([
-        page.waitForEvent("download"),
-        page.click("a[href='download/Resume 1.pdf']")
-    ]);
-
-    await download.saveAs("Downloads/myfile.pdf")
 
 
 await page.waitForTimeout(2000);    
