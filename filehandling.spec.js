@@ -27,6 +27,6 @@ test('File handling', async({page}) => {
 
 // Sample line
 
-
+await page.waitForTimeout(2000);
     
 })
